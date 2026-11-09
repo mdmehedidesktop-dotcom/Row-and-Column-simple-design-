@@ -75,6 +75,26 @@ void main(){
                   )
 
                 ],
+              ),
+              SizedBox(height: 20,),
+              Row(
+                children: [
+                  Container(
+                    height: 110,width: 110,color: Colors.purple,
+                  ),SizedBox(width: 7,),
+                  Container(
+                    height: 110,width: 110,color: Colors.green,
+                  ),SizedBox(width: 7,),
+                  Container(
+                    height: 110,width: 110,color: Colors.yellow,
+                  ),SizedBox(width: 7,),
+                  Container(
+                    height: 110,width: 110,color: Colors.pinkAccent,
+                  ),SizedBox(width: 7,),
+                  Container(
+                    height: 110,width: 110,color: Colors.brown,
+                  ),SizedBox(width: 7,),
+                ],
               )
             ],
           ),
